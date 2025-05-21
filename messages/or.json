@@ -1,0 +1,376 @@
+{
+    "auth": {
+        "title": "Herrega kee seeni",
+        "loginForm": {
+            "formRow": {
+            "emailLabel": "Teessoo email",
+            "passwLabel": "Jecha darbii"
+            },
+            "input": {
+            "required": "Qajeelfamni kun dirqama",
+            "emailError": "Teessoo email sirrii kenni"
+            },
+            "login": "Seeni"
+        }
+    },
+   
+    "home": {
+        "accounts": {
+            "title": "Akkaawuntii kee haaromsi",
+            "subtitle_1": "Daataa fayyadamaa haaromsi",
+            "subtitle_2": "Jecha darbii haaromsi",
+
+            "userDataForm": {
+                "formRow": {
+                    "emailLabel": "Teessoo email",
+                    "fullNameLabel": "Maqaa guutuu",
+                    "avatarLabel": "Suuraa fayyadamaa"
+                },
+                "input": {
+                    "nameError": "Dirqama guutamuu qabu"
+                },
+                "cancel": "Haquu",
+                "update": "Akkaawuntii haaromsi"
+            },
+
+            "updatePasswordForm": {
+                "formRow": {
+                    "newPassLabel": "Jecha darbii haaraa (char. 8 ol)",
+                    "confirmLabel": "Jecha darbii mirkaneessi"
+                },
+                "input": {
+                    "newPassError": "Dirqama guutamuu qabu",
+                    "newPassMessage": "Jecha darbii charactera 8 gadi hin taane qabaachuu hin qabu",
+                    "confirmError": "Dirqama guutamuu qabu",
+                    "confirmMessage": "Jechoonni darbii walfakkaachuu qabu"
+                },
+                "cancel": "Haquu",
+                "update": "Jecha darbii haaromsi"
+            }
+        },
+
+        "bookings": {
+            "title": "Cufamoota hunda",
+            "bookingDetail": {
+                "title": "Cufamuu #",
+                "back": "Deebi'i",
+                "checkin": "Seenuu",
+                "checkout": "Ba'u",
+                "delete": "Cufamuu haqi",
+
+                "dataBox": {
+                    "numNightsLabel": "halkanoota kabeen keessatti",
+                    "dayLabel": "Har'a",
+                    "guestLabel": "daawwattoota",
+                    "nationalIdLabel": "ID Biyyoolessaa",
+                    "observationLabel": "Yaada",
+                    "breakfastLabel": "Qophii ganamaa dabalataa?",
+                    "yes": "Eeyyee",
+                    "no": "Lakki",
+                    "totPriceLabel": "Gatii waliigalaa",
+                    "cabin": "kabeen",
+                    "breakfast": "qophii ganamaa",
+                    "paid": "Baafameera",
+                    "willPay": "Iddoo jiraattutti ni kaffalama",
+                    "booked": "Cufameera"
+                }
+            }
+        },
+
+        "cabins": {
+            "title": "Kabeenota hunda",
+            "cabinTable": {
+                "cabin": "Kabeen",
+                "capacity": "Baay’ina namaa",
+                "price": "Gatii",
+                "discount": "Gatii hir’ataa",
+                "emptyMessage": "Kabeen tokkollee hin argamne",
+
+                "fits_up": "Hangam namaaf mijatu:",
+                "fits_up2": "namoota",
+
+                "duplicate": "Hammachiisi",
+                "edit": "Sirreessi",
+                "del": "Haqi"
+            },
+
+            "addCabin": {
+                "title": "Kabeen haaraa dabaluu",
+                "createCabinForm": {
+                    "formRow": {
+                        "cabinNameLabel": "Maqaa kabeenii",
+                        "maxCapLabel": "Baay’ina ol’aanaa",
+                        "regPriceLabel": "Gatii idileen",
+                        "discountLabel": "Gatii hir’ataa",
+                        "descriptionLabel": "Ibsa marsariitiif",
+                        "cabinPhoto": "Suuraa kabeenii"
+                    },
+                    "input": {
+                        "required": "Dirqama guutamuu qabu",
+                        "maxCapError": "Dirqama guutamuu qabu",
+                        "capMessage": "Baay’ina namoota 1 ol ta’uu qaba",
+                        "regPriceError": "Dirqama guutamuu qabu",
+                        "regPriceMessage": "Gatiin 1 ol ta’uu qaba",
+                        "discountError": "Dirqama guutamuu qabu",
+                        "discountMessage": "Gatiin hir'ataa gatii idileen gadi ta’uu qaba",
+                        "descError": "Dirqama guutamuu qabu"
+                    },
+                    "cancel": "Haquu",
+                    "editCabin": "Kabeen sirreessi",
+                    "createCabin": "Kabeen haaraa uumi"
+                }
+            }
+        },
+
+        "dashboard": {
+            "title": "Daashboordii",
+            "filter": {
+                "label1": "Guyyaa 7 darban",
+                "label2": "Guyyaa 30 darban",
+                "label3": "Guyyaa 90 darban"
+            },
+            "durationChart": {
+                "title": "Gabaabina turtii"
+            },
+            "salesChart": {
+                "title": "Gurgurtaa irraa",
+                "totalSalesName": "Gurgurtaa waliigalaa",
+                "extraSalesName": "Gurgurtaa dabalataa"
+            }
+        },
+
+        "settings": {
+            "title": "Haaromsa mijaa’ina hoteelaa",
+            "updateSettingsForm": {
+                "formRow": {
+                    "minNightsLabel": "Halkan/booking xiqqaa",
+                    "maxNightsLabel": "Halkan/booking guddaa",
+                    "maxGuestsBookingLabel": "Daawwattoota/booking guddaa",
+                    "breakfastPriceLabel": "Gatii qophii ganamaa"
+                }
+            }
+        },
+
+        "users": {
+            "title": "Fayyadamaa haaraa uumi",
+            "registerForm": {
+                "formRow": {
+                    "fullNameLabel": "Maqaa guutuu",
+                    "emailLabel": "Teessoo email",
+                    "passwordLabel": "Jecha darbii (char. 8 ol)",
+                    "repeatPasswordLabel": "Jecha darbii irra deebi'i"
+                },
+                "input": {
+                    "fullNameError": "Dirqama guutamuu qabu",
+                    "emailError": "Dirqama guutamuu qabu",
+                    "emailMessage": "Teessoo email sirrii galchi",
+                    "passwordError": "Dirqama guutamuu qabu",
+                    "passwordMessage": "Jecha darbii charactera 8 ol qabaachuu qaba",
+                    "repeatPasswordError": "Dirqama guutamuu qabu",
+                    "repeatPasswordMessage": "Jechoonni darbii walfakkaachuu qabu"
+                },
+                "cancel": "Haquu",
+                "createUser": "Fayyadamaa haaraa uumi"
+            }
+        }
+    },
+
+    "api": {
+        "auth": {
+        "register": {
+            "error1": "Mee odeeffannoo guutuu kenni",
+            "error2": "Herrega uumuu dadhabe!"
+        }
+        },
+        "booking": {
+        "fetchError": "Booking fiduu hin dandeenye",
+        "deleteError": "Booking haquu hin milkoofne!",
+        "checkIn": {
+            "updateError": "Booking haaromsuu hin dandeenye"
+        },
+        "recentBooking": {
+            "fetchError": "Bookingwwan fiduu hin milkoofne"
+        },
+        "recentStays": {
+            "fetchError": "Bookingwwan fiduu hin milkoofne"
+        },
+        "todayActivity": {
+            "fetchError": "Bookingwwan fiduu hin milkoofne"
+        }
+        },
+        "cabins": {
+        "postError": "Mee odeeffannoo guutuu nuuf kenni",
+        "postError2": "Cabiinii haaraa uumuu dadhabe",
+        "cabin": {
+            "deleteError": "Cabinii haquu hin dandeenye"
+        }
+        },
+        "settings": {
+        "updateError": "Settings haaromsuu hin milkoofne",
+        "fetchError": "Settings fiduu hin milkoofne"
+        },
+        "user": {
+        "updateError": "Herrega haaromsuu dadhabe!"
+        }
+    },
+    "components": {
+        "confirmDelete": {
+        "warning1": "Kana haquu akka barbaaddu mirkaneeffatta?",
+        "warning2": "Guutumaan guutuutti? Hojii kana deebi'anii hin haqu",
+        "cancel": "Haquu",
+        "delete": "Haquu"
+        }
+    },
+    "context": {
+        "darkMode": {
+        "error": "DarkModeContext bakka sirrii hin taane keessatti fayyadame"
+        },
+        "global": {
+        "error": "GlobalContext bakka sirrii hin taane keessatti fayyadame"
+        }
+    },
+
+    "features": {
+        "auth": {
+        "hooks": {
+            "register": "Herregni milkaa'inaan uumame!",
+            "update": "Herregni milkaa'inaan haaromfame!"
+        }
+        },
+        "booking": {
+        "hooks": {
+            "delete": "Booking milkaa'inaan haquame"
+        },
+        "table": {
+            "cabin": "Cabinii",
+            "guest": "Daawwataa",
+            "dates": "Guyyoota",
+            "status": "Haala",
+            "amount": "Gatii",
+            "empty": "Booking tokko illee hin argamne",
+            "pagination": {
+            "showing": "Mul'isu",
+            "to": "hanga",
+            "of": "keessa",
+            "results": "bu'aa",
+            "prev": "Duraa",
+            "next": "Itti aanuu"
+            }
+        },
+        "row": {
+            "nightStay": "halkan turtii",
+            "seeDetails": "Faayiloota ilaali",
+            "checkin": "Check in",
+            "checkout": "Check out",
+            "title": "Booking haquu"
+        }
+        },
+        "cabins": {
+        "hooks": {
+            "edit": "Cabinii milkaa'inaan gulaalame!",
+            "create": "Cabinii haaraa milkaa’inaan uumame!",
+            "delete": "Cabinii milkaa'inaan haquame"
+        }
+        },
+        "checkinout": {
+        "title": "Har'a",
+        "hooks": {
+            "toast1": "Booking #",
+            "toast2": "milkaa’inaan check in taasifame",
+            "toast3": "milkaa’inaan check out taasifame",
+            "checkinerror": "Check in gochuuf dogoggorri uumame",
+            "checkouterror": "Check out gochuuf dogoggorri uumame"
+        },
+        "wannaAddBreakfast": "Foon nyaata ganamaa dabaluu barbaaddaa",
+        "checkInBooking": "Booking # check in gochuu",
+        "back": "Deebi’i",
+        "checkout": "Check out",
+        "noActivity": "Hojii har'aa hin jiru...",
+        "arriving": "Dhufaa jiru",
+        "departing": "Deemaa jiru",
+        "nights": "halkan",
+        "checkin": "Check in"
+        },
+        "dashboard": {
+        "stats": {
+            "bookings": "Bookingwwan",
+            "sales": "Gurgurtaa",
+            "checkins": "Check ins",
+            "occupancyRate": "Sadarkaa guutuu"
+        }
+        },
+        "settings": {
+        "update": "Settings milkaa’inaan haaromfame"
+        }
+    },
+    "lib": {
+        "error": "Maamiltoota sirrii hin taane"
+    },
+    "services": {
+        "bookingError": "Booking fiduu hin milkoofne!",
+        "settingsError": "Settings fiduu hin milkoofne"
+    },
+    "utils": {
+        "constants": {
+        "home": "Mana",
+        "bookings": "Bookingwwan",
+        "cabins": "Cabiniiwwan",
+        "users": "Hirmaattota",
+        "settings": "Settings",
+        "all": "Hundaa",
+        "noDiscount": "Gatii hir’ataa hin jiru",
+        "withDiscount": "Gatii hir’ataa waliin",
+        "sortby_a_z": "Maqaan (A-Z) qindeessi",
+        "sortby_z_a": "Maqaan (Z-A) qindeessi",
+        "sortby_lowprice": "Gatiin xiqqaa duraa qindeessi",
+        "sortby_highprice": "Gatiin guddaa duraa qindeessi",
+        "sortby_lowcap": "Baay'inni xiqqaa duraa qindeessi",
+        "sortby_highcap": "Baay'inni guddaa duraa qindeessi",
+        "checkedout": "Check out taasifame",
+        "checkedin": "Check in taasifame",
+        "unconfirmed": "Mirkanaa'aa miti",
+        "recent_first": "Guyyaa haaraa duraan qindeessi",
+        "earlier_first": "Guyyaa durii duraan qindeessi",
+        "largest_first": "Gatiin guddaa duraan qindeessi",
+        "smallest_first": "Gatiin xiqqaa duraan qindeessi",
+        "night": "halkan",
+        "nights": "halkan"
+        },
+        "helpers": {
+        "usd": "USD",
+        "in": "keessa",
+        "In": "Keessa",
+        "days": "guyyaa",
+        "Days": "Guyyaa",
+        "ago": "dura",
+        "months": "ji'a",
+        "month": "ji'a"
+        }
+    },
+    "months": {
+        "Jan": "Ama",
+        "January": "Amajjii",
+        "Feb": "Gur",
+        "February": "Guraandhala",
+        "Mar": "Bit",
+        "March": "Bitootessa",
+        "Apr": "Elb",
+        "April": "Elba",
+        "May": "Caamsaa",
+        "Jun": "Wax",
+        "June": "Waxabajjii",
+        "Jul": "Ado",
+        "July": "Adoolessa",
+        "Aug": "Hag",
+        "August": "Hagayya",
+        "Sep": "Ful",
+        "September": "Fuulbana",
+        "Oct": "Onk",
+        "October": "Onkololeessa",
+        "Nov": "Sad",
+        "November": "Sadaasa",
+        "Dec": "Mud",
+        "December": "Muddee"
+    }
+
+}

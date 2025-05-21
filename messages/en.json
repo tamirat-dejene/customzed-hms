@@ -1,0 +1,394 @@
+{   
+    "auth": {
+        "title": "Log in to your account",
+        "loginForm": {
+            "formRow": {
+                "emailLabel": "Email address",
+                "passwLabel": "Password"
+            },
+            "input": {
+                "required":"This field is required",
+                "emailError": "Please provide a valid email address"
+            },
+            "login": "Log in"
+        }
+    },
+
+    "home": {
+        "accounts": {
+            "title": "Update your account",
+            "subtitle_1": "Update user data",
+            "subtitle_2": "Update password",
+
+            "userDataForm": {
+                "formRow": {
+                    "emailLabel": "Email address",
+                    "fullNameLabel":"Full name",
+                    "avatarLabel": "Avatar image"
+                },
+                "input": {
+                    "nameError": "This field is required"
+                },
+                "cancel": "Cancel",
+                "update": " Update account"
+            },
+
+            "updatePasswordForm": {
+                "formRow": {
+                    "newPassLabel": "New password (min 8 chars)",
+                    "confirmLabel": "Confirm password"
+                },
+                "input": {
+                    "newPassError": "This field is required",
+                    "newPassMessage": "Password needs a minimum of 8 characters",
+                    "confirmError": "This field is required",
+                    "confirmMessage": "Passwords need to match"
+                },
+                "cancel": "Cancel",
+                "update": "Update password"
+            }
+        },
+
+        "bookings": {
+            "title": "All bookings",
+            "bookingDetail": {
+                "title": "Booking #",
+                "back": "Back",
+                "checkin": "Check in",
+                "checkout": "Check out",
+                "delete": "Delete booking",
+
+                "dataBox": {
+                    "numNightsLabel": "nights in Cabin",
+                    "dayLabel": "Today",
+                    "guestLabel": "guests",
+                    "nationalIdLabel": "National ID",
+                    "observationLabel": "Observations",
+                    "breakfastLabel": "Breakfast included?",
+                    "yes": "Yes",
+                    "no": "No",
+                    "totPriceLabel": "Total price",
+                    "cabin": "cabin",
+                    "breakfast": "breakfast",
+                    "paid": "Paid",
+                    "willPay": "Will pay at property",
+                    "booked": "Booked"
+                }
+            }
+        },
+
+        "cabins": {
+            "title": "All cabins",
+            "cabinTable": {
+                "cabin": "Cabin",
+                "capacity": "Capacity",
+                "price":  "Price",
+                "discount": "Discount",
+                "emptyMessage": "No cabins could be found",
+
+                "fits_up" : "Fits up to ",
+                "fits_up2": "guests",
+
+                "duplicate": "Duplicate",
+                "edit": "Edit",
+                "del": "Delete"
+            },
+
+            "addCabin": {
+                "title": "Add new cabin",
+                "createCabinForm": {
+                    "formRow": {
+                        "cabinNameLabel": "Cabin name",
+                        "maxCapLabel": "Maximum capacity",
+                        "regPriceLabel": "Regular price",
+                        "discountLabel": "Discount",
+                        "descriptionLabel": "Description for website",
+                        "cabinPhoto": "Cabin Photo"
+                    },
+                    "input": {
+                        "required": "This field is required",
+                        "maxCapError": "This field is required",
+                        "capMessage": "Capacity should be at least 1",
+                        "regPriceError": "This field is required",
+                        "regPriceMessage": "Price should be at least 1",
+                        "discountError": "This field is required",
+                        "discountMessage": "Discount should be less than regular price",
+                        "descError": "This field is required"
+                    },
+                    "cancel": "Cancel",
+                    "editCabin": "Edit cabin",
+                    "createCabin": "Create new cabin"
+                }
+            }
+        },
+
+        "dashboard": {
+            "title": "Dashboard",
+            "filter": {
+                "label1": "Last 7 days",
+                "label2": "Last 30 days",
+                "label3": "Last 90 days"
+            },
+            "durationChart": {
+                "title": "Stay duration summary"
+            },
+            "salesChart": {
+                "title": "Sales from",
+                "totalSalesName": "Total sales",
+                "extraSalesName": "Extras sales"
+            }
+        },
+
+        "settings": {
+            "title": "Update hotel settings",
+            "updateSettingsForm": {
+                "formRow": {
+                    "minNightsLabel": "Minimum nights/booking",
+                    "maxNightsLabel": "Maximum nights/booking",
+                    "maxGuestsBookingLabel": "Maximum guests/booking",
+                    "breakfastPriceLabel": "Breakfast price"
+                }
+            }
+        },
+
+        "users": {
+            "title": "Create a new user",
+            "registerForm": {
+                "formRow": {
+                    "fullNameLabel": "Full name",
+                    "emailLabel": "Email address",
+                    "passwordLabel": "Password (min 8 characters)",
+                    "repeatPasswordLabel": "Repeat password"
+                },
+                "input": {
+                    "fullNameError": "This field is required",
+                    "emailError": "This field is required",
+                    "emailMessage": "Please provide a valid email address",
+                    "passwordError": "This field is required",
+                    "passwordMessage": "Password needs a minimum of 8 characters",
+                    "repeatPasswordError":"This field is required",
+                    "repeatPasswordMessage": "Passwords need to match"
+                },
+                "cancel": "Cancel",
+                "createUser": "Create new user"
+            }
+        }
+    },
+
+    "api": {
+        "auth": {
+            "register": {
+                "error1": "Please provide all the data",
+                "error2": "Failed to create an account!"
+            }
+        },
+
+        "booking": {
+            "fetchError": "Unable to fetch booking",
+            "deleteError": "Booking could not be deleted!",
+            "checkIn": {
+                "updateError": "Booking could not be updated"
+            },
+            "recentBooking": {
+                "fetchError": "Fail to fetch bookings"
+            },
+            "recentStays": {
+                "fetchError": "Fail to fetch bookings"
+            },
+            "todayActivity": {
+                "fetchError": "Fail to fetch bookings"
+            }
+        },
+
+        "cabins": {
+            "postError": "please provide us all data",
+            "postError2": "Fail to create new cabin",
+            "cabin": {
+                "deleteError": "Unable to delete cabin"
+            }
+        },
+
+        "settings": {
+            "updateError": "Failed to update setting",
+            "fetchError": "Failed to fetch settings"
+        },
+
+        "user": {
+            "updateError": "Failed to update an account!"
+        }
+    },
+
+    "components": {
+        "confirmDelete": {
+            "warning1": "Are you sure you want to delete this",
+            "warning2": "permanently? This action cannot be undone.",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        }
+    },
+    
+    "context": {
+        "darkMode": {
+            "error": "DarkModeContext was used outside of DarkModeProvider"
+        },
+        "global": {
+            "error": "GlobalContext was used outside of GlobalContextProvider"
+        }
+    },
+
+    "features": {
+        "auth": {
+            "hooks": {
+                "register": "Account successfully created!",
+                "update": "Account successfully updated!"
+            }
+        },
+
+        "booking": {
+            "hooks": {
+                "delete": "Booking successfully deleted"
+            },
+
+            "table": {
+                "cabin": "Cabin",
+                "guest": "Guest",
+                "dates": "Dates",
+                "status": "Status",
+                "amount": "Amount",
+                "empty": "No bookings could be found",
+
+                "pagination": {
+                    "showing": "Showing",
+                    "to": "to",
+                    "of": "of",
+                    "results": "results",
+                    "prev": "Previous",
+                    "next": "Next"
+                }
+            },
+
+            "row": {
+                "nightStay": "night stay",
+                "seeDetails": "See details",
+                "checkin": "Check in",
+                "checkout": "Check out",
+                "title": "Delete booking"
+            }
+
+        },
+
+        "cabins": {
+            "hooks": {
+                "edit": "Cabin successfully edited!",
+                "create": "New cabin successfully created!",
+                "delete": "Cabin successfully deleted"
+            }
+        },
+
+        "checkinout": {
+            "title": "Today",
+            "hooks": {
+                "toast1": "Booking #",
+                "toast2": "successfully checked in",
+                "toast3": "successfully checked out",
+                "checkinerror": "There was error while checking in",
+                "checkouterror": "There was error while checking out"
+            },
+
+            "wannaAddBreakfast": "Want to add breakfast for",
+            "checkInBooking": "Check in booking #",
+            "back": "Back",
+            "checkout": "Check out",
+            "noActivity": "No activity today...",
+            "arriving": "Arriving",
+            "departing": "Departing",
+            "nights": "nights",
+            "checkin":"Check in"
+        },
+
+        "dashboard": {
+            "stats": {
+                "bookings": "Bookings",
+                "sales": "Sales",
+                "checkins": "Check ins",
+                "occupancyRate": "Occupancy rate"
+            }
+        },
+        "settings": {
+            "update": "Settings successfully updated"
+        }
+    },
+
+    "lib": {
+        "error": "Invalid credentials"
+    },
+
+    "services": {
+        "bookingError": "Failed to fetch booking!",
+        "settingsError": "Failed to fetch settings"
+    },
+
+    "utils": {
+        "constants": {
+            "home": "Home",
+            "bookings": "Bookings",
+            "cabins": "Cabins",
+            "users": "Users",
+            "settings": "Settings",
+            "all": "All",
+            "noDiscount": "No Discount",
+            "withDiscount": "With Discount",
+            "sortby_a_z": "Sort by name (A-Z)",
+            "sortby_z_a": "Sort by name (Z-A)",
+            "sortby_lowprice":"Sort by price (low first)",
+            "sortby_highprice":"Sort by price (high first)",
+            "sortby_lowcap": "Sort by capacity (low first)",
+            "sortby_highcap": "Sort by capacity (high first)",
+            "checkedout": "Checked out",
+            "checkedin": "Checked in",
+            "unconfirmed": "Unconfirmed",
+            "recent_first": "Sort by date (recent first)",
+            "earlier_first": "Sort by date (earlier first)",
+            "largest_first": "Sort by amount (high first)",
+            "smallest_first": "Sort by amount (low first)",
+            "night": "night",
+            "nights": "nights"
+        },
+        "helpers": {
+            "usd": "USD",
+            "in": "in",
+            "In": "In",
+            "days": "days",
+            "Days": "Days",
+            "ago": "ago",
+            "months": "months",
+            "month": "month"
+        }
+    },
+
+    "months": {
+        "Jan": "Jan",
+        "January": "January",
+        "Feb": "Feb",
+        "February": "February",
+        "Mar": "Mar",
+        "March": "March",
+        "Apr": "Apr",
+        "April": "April",
+        "May": "May",
+        "Jun": "Jun",
+        "June": "June",
+        "Jul": "Jul",
+        "July": "July",
+        "Aug": "Aug",
+        "August": "August",
+        "Sep": "Sep",
+        "September": "September",
+        "Oct": "Oct",
+        "October": "October",
+        "Nov": "Nov",
+        "November": "November",
+        "Dec": "Dec",
+        "December": "December"
+    }
+}

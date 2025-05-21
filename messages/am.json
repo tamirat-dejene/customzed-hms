@@ -1,0 +1,393 @@
+{
+    "auth": {
+        "title": "ከመለያዎ ጋር ይግቡ",
+        "loginForm": {
+            "formRow": {
+                "emailLabel": "የኢሜይል አድራሻ",
+                "passwLabel": "የይለፍ ቃል"
+            },
+            "input": {
+                "required": "ይህ መስክ አስፈላጊ ነው",
+                "emailError": "እባክዎን ትክክለኛ የኢሜይል አድራሻ ያስገቡ"
+            },
+            "login": "ይግቡ"
+        }
+    },
+
+    "home": {
+        "accounts": {
+            "title": "መለያዎን ያዘምኑ",
+            "subtitle_1": "የተጠቃሚ መረጃ ያዘምኑ",
+            "subtitle_2": "የይለፍ ቃል ያዘምኑ",
+
+            "userDataForm": {
+                "formRow": {
+                    "emailLabel": "የኢሜይል አድራሻ",
+                    "fullNameLabel": "ሙሉ ስም",
+                    "avatarLabel": "የፎቶ ምስል"
+                },
+                "input": {
+                    "nameError": "ይህ መስክ አስፈላጊ ነው"
+                },
+                "cancel": "ይቅር",
+                "update": "መለያ ያዘምኑ"
+            },
+
+            "updatePasswordForm": {
+                "formRow": {
+                    "newPassLabel": "አዲስ የይለፍ ቃል (ከ8 ቁምፊ በላይ)",
+                    "confirmLabel": "የይለፍ ቃልን ያረጋግጡ"
+                },
+                "input": {
+                    "newPassError": "ይህ መስክ አስፈላጊ ነው",
+                    "newPassMessage": "የይለፍ ቃሉ ቢያንስ 8 ቁምፊ መኖሩ አለበት",
+                    "confirmError": "ይህ መስክ አስፈላጊ ነው",
+                    "confirmMessage": "የይለፍ ቃሎቹ እኩል መሆን አለባቸው"
+                },
+                "cancel": "ይቅር",
+                "update": "የይለፍ ቃል ያዘምኑ"
+            }
+        },
+
+        "bookings": {
+            "title": "ሁሉም ቦታ ማስያዣዎች",
+            "bookingDetail": {
+                "title": "ማስያዣ #",
+                "back": "ወደኋላ",
+                "checkin": "መግቢያ",
+                "checkout": "መውጫ",
+                "delete": "ማስያዣውን ያስወግዱ",
+
+                "dataBox": {
+                    "numNightsLabel": "ሌሊቶች በካቢን",
+                    "dayLabel": "ዛሬ",
+                    "guestLabel": "እንግዶች",
+                    "nationalIdLabel": "የመንግስት መታወቂያ ካርድ",
+                    "observationLabel": "ማስታወሻዎች",
+                    "breakfastLabel": "እንቁላል ተካትቷል?",
+                    "yes": "አዎን",
+                    "no": "አይ",
+                    "totPriceLabel": "ጠቅላላ ዋጋ",
+                    "cabin": "ካቢን",
+                    "breakfast": "እንቁላል",
+                    "paid": "ተከፍሏል",
+                    "willPay": "በአካባቢው ላይ ይከፍላሉ",
+                    "booked": "ተቀመጠ"
+                }
+            }
+        },
+
+        "cabins": {
+            "title": "ሁሉም ካቢኖች",
+            "cabinTable": {
+                "cabin": "ካቢን",
+                "capacity": "መጠን",
+                "price": "ዋጋ",
+                "discount": "ቅናሽ",
+                "emptyMessage": "ማንኛውም ካቢን አልተገኘም",
+
+                "fits_up" : "እስከ",
+                "fits_up2": "እንግዶች ይቀመጣል",
+
+                "duplicate": "አባዛ",
+                "edit": "አርትዕ",
+                "del": "ሰርዝ"
+                  
+            },
+
+            "addCabin": {
+                "title": "አዲስ ካቢን ያክሉ",
+                "createCabinForm": {
+                    "formRow": {
+                        "cabinNameLabel": "የካቢኑ ስም",
+                        "maxCapLabel": "ከፍተኛ መጠን",
+                        "regPriceLabel": "መደበኛ ዋጋ",
+                        "discountLabel": "ቅናሽ",
+                        "descriptionLabel": "ለድህረ ገፅ መግለጫ",
+                        "cabinPhoto": "ካቢን ፎቶ"
+                    },
+                    "input": {
+                        "required": "ይህ መስክ አስፈላጊ ነው",
+                        "maxCapError": "ይህ መስክ አስፈላጊ ነው",
+                        "capMessage": "መጠን ቢያንስ 1 መሆን አለበት",
+                        "regPriceError": "ይህ መስክ አስፈላጊ ነው",
+                        "regPriceMessage": "ዋጋ ቢያንስ 1 መሆን አለበት",
+                        "discountError": "ይህ መስክ አስፈላጊ ነው",
+                        "discountMessage": "ቅናሽ ከመደበኛ ዋጋ ያነሰ መሆን አለበት",
+                        "descError": "ይህ መስክ አስፈላጊ ነው"
+                    },
+                    "cancel": "ይቅር",
+                    "editCabin": "ካቢኑን ያርቱ",
+                    "createCabin": "አዲስ ካቢን ይፍጠሩ"
+                }
+            }
+        },
+
+        "dashboard": {
+            "title": "ዳሽቦርድ",
+            "filter": {
+                "label1": "ባለፈው 7 ቀናት",
+                "label2": "ባለፈው 30 ቀናት",
+                "label3": "ባለፈው 90 ቀናት"
+            },
+            "durationChart": {
+                "title": "የቆይታ ጊዜ ማጠቃለያ"
+            },
+            "salesChart": {
+                "title": "ሽያጮች መጠቀሚያ ከ",
+                "totalSalesName": "ድምር ሽያጭ",
+                "extraSalesName": "ተጨማሪ ሽያጭ"
+            }
+        },
+
+        "settings": {
+            "title": "የሆቴሉን ቅንብሮች ያዘምኑ",
+            "updateSettingsForm": {
+                "formRow": {
+                    "minNightsLabel": "ቢያንስ ሌሊት/ማስያዣ",
+                    "maxNightsLabel": "ከፍተኛ ሌሊት/ማስያዣ",
+                    "maxGuestsBookingLabel": "ከፍተኛ እንግዶች/ማስያዣ",
+                    "breakfastPriceLabel": "የእንቁላል ዋጋ"
+                }
+            }
+        },
+
+        "users": {
+            "title": "አዲስ ተጠቃሚ ይፍጠሩ",
+            "registerForm": {
+                "formRow": {
+                    "fullNameLabel": "ሙሉ ስም",
+                    "emailLabel": "የኢሜል አድራሻ",
+                    "passwordLabel": "የይለፍ ቃል (ቢያንስ 8 ቁምፊዎች)",
+                    "repeatPasswordLabel": "የይለፍ ቃልን ድገም"
+                },
+                "input": {
+                    "fullNameError": "ይህ መስክ አስፈላጊ ነው",
+                    "emailError": "ይህ መስክ አስፈላጊ ነው",
+                    "emailMessage": "እባክዎን ትክክለኛ የኢሜል አድራሻ ያስገቡ",
+                    "passwordError": "ይህ መስክ አስፈላጊ ነው",
+                    "passwordMessage": "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መኖሩ አለበት",
+                    "repeatPasswordError": "ይህ መስክ አስፈላጊ ነው",
+                    "repeatPasswordMessage": "የይለፍ ቃሎች አንድ መሆን አለባቸው"
+                },
+                "cancel": "ይቅር",
+                "createUser": "አዲስ ተጠቃሚ ይፍጠሩ"
+            }
+        }
+    },
+
+    "api": {
+        "auth": {
+            "register": {
+                "error1": "እባክዎ ሁሉንም መረጃ ያስገቡ",
+                "error2": "መለያ መፍጠር አልተቻለም!"
+            }
+        },
+
+        "booking": {
+            "fetchError": "ማስያዣውን ማግኘት አልተቻለም",
+            "deleteError": "ማስያዣው ማጥፋት አልተቻለም!",
+            "checkIn": {
+                "updateError": "ማስያዣው ማዘመን አልተቻለም"
+            },
+            "recentBooking": {
+                "fetchError": "ማስያዣዎችን ማግኘት አልተቻለም"
+            },
+            "recentStays": {
+                "fetchError": "ማስያዣዎችን ማግኘት አልተቻለም"
+            },
+            "todayActivity": {
+                "fetchError": "ማስያዣዎችን ማግኘት አልተቻለም"
+            }
+        },
+
+        "cabins": {
+            "postError": "እባኮትን ሁሉንም መረጃ ያቅርቡ",
+            "postError2": "አዲስ ካቢን መፍጠር አልተቻለም",
+            "cabin": {
+                "deleteError": "ካቢኑን ማጥፋት አልተቻለም"
+            }
+        },
+
+        "settings": {
+            "updateError": "ቅንብሮችን ማዘመን አልተቻለም",
+            "fetchError": "ቅንብሮችን ማግኘት አልተቻለም"
+        },
+
+        "user": {
+            "updateError": "መለያውን ማዘመን አልተቻለም!"
+        }
+    },
+
+    "components": {
+        "confirmDelete": {
+            "warning1": "ይህን ማጥፋት እንደምትፈልጉ እርግጠኛ ነዎት?",
+            "warning2": "ለዘላለም ይጠፋል። ይህ እርምጃ አይመለስም።",
+            "cancel": "ይቅር",
+            "delete": "ሰርዝ"
+        }
+    },
+
+    "context": {
+        "darkMode": {
+            "error": "DarkModeContext በ DarkModeProvider ውጪ ተጠቅመዋል"
+        },
+        "global": {
+            "error": "GlobalContext በ GlobalContextProvider ውጪ ተጠቅመዋል"
+        }
+    },
+
+    "features": {
+        "auth": {
+            "hooks": {
+                "register": "መለያ በተሳካ ሁኔታ ተፈጥሯል!",
+                "update": "መለያ በተሳካ ሁኔታ ተዘመኗል!"
+            }
+        },
+
+        "booking": {
+            "hooks": {
+                "delete": "ማስያዣው በተሳካ ሁኔታ ተሰርዟል"
+            },
+            "table": {
+                "cabin": "ካቢን",
+                "guest": "እንግዳ",
+                "dates": "ቀኖች",
+                "status": "ሁኔታ",
+                "amount": "መጠን",
+                "empty": "ማንኛውም ማስያዣ አልተገኘም",
+
+                "pagination": {
+                    "showing": "በመታየት ላይ",
+                    "to": "እስከ",
+                    "of": "ከ",
+                    "results": "ውጤቶች",
+                    "prev": "የቀድሞው",
+                    "next": "ቀጣይ"
+                }
+            },
+
+            "row": {
+                "nightStay": "ሌሊት ቆይታ",
+                "seeDetails": "ዝርዝሮችን ይመልከቱ",
+                "checkin": "መግቢያ",
+                "checkout": "መውጫ",
+                "title": "ማስያዣ ሰርዝ"
+            }
+        },
+
+        "cabins": {
+            "hooks": {
+                "edit": "ካቢኑ በተሳካ ሁኔታ ተስተካክሏል!",
+                "create": "አዲስ ካቢን በተሳካ ሁኔታ ተፈጥሯል!",
+                "delete": "ካቢኑ በተሳካ ሁኔታ ተሰርዟል"
+            }
+        },
+
+        "checkinout": {
+            "title": "ዛሬ",
+            "hooks": {
+                "toast1": "ማስያዣ #",
+                "toast2": "በተሳካ ሁኔታ ገብቷል",
+                "toast3": "በተሳካ ሁኔታ ወጥቷል",
+                "checkinerror": "በመግባት ላይ ስህተት ነበር",
+                "checkouterror": "በመውጣት ላይ ስህተት ነበር"
+            },
+
+            "wannaAddBreakfast": "ለዚህ እንጀራ መጨመር ትፈልጋለህ?",
+            "checkInBooking": "ማስያዣ # ግባ",
+            "back": "ወደ ኋላ",
+            "checkout": "ውጣ",
+            "noActivity": "ዛሬ ምንም እንቅስቃሴ የለም...",
+            "arriving": "በመድረስ ላይ",
+            "departing": "በመመለስ ላይ",
+            "nights": "ሌሊቶች",
+            "checkin": "ግባ"
+        },
+
+        "dashboard": {
+            "stats": {
+                "bookings": "ማስያዣዎች",
+                "sales": "ሽያጮች",
+                "checkins": "ግባዎች",
+                "occupancyRate": "የመያዣ መጠን"
+            }
+        },
+
+        "settings": {
+            "update": "ቅንብሮች በተሳካ ሁኔታ ተዘምነዋል"
+        }
+    },
+
+    "lib": {
+        "error": "የተሳሳተ ማረጋገጫ"
+    },
+
+    "services": {
+        "bookingError": "ማስያዣውን ማውረጃ አልተሳካም!",
+        "settingsError": "ቅንብሮችን ማውረጃ አልተሳካም"
+    },
+
+    "utils": {
+        "constants": {
+            "home": "ዋና ገጽ",
+            "bookings": "ማስያዣዎች",
+            "cabins": "ካቢኖች",
+            "users": "ተጠቃሚዎች",
+            "settings": "ቅንብሮች",
+            "all": "ሁሉም",
+            "noDiscount": "ምንም ቅናሽ የለም",
+            "withDiscount": "ቅናሽ ያለው",
+            "sortby_a_z": "በስም ተከታታይ (A-Z)",
+            "sortby_z_a": "በስም ተከታታይ (Z-A)",
+            "sortby_lowprice": "በዋጋ ዝቅተኛ (ከመጀመሪያ)",
+            "sortby_highprice": "በዋጋ ከፍተኛ (ከመጀመሪያ)",
+            "sortby_lowcap": "በመጠን ዝቅተኛ (ከመጀመሪያ)",
+            "sortby_highcap": "በችሎታ ከፍተኛ (ከመጀመሪያ)",
+            "checkedout": "ወጣ",
+            "checkedin": "ገባ",
+            "unconfirmed": "አልተረጋገጠም",
+            "recent_first": "በቀን ቅደም ተከተል (አዲስ ከመጀመሪያ)",
+            "earlier_first": "በቀን ቅደም ተከተል (አሮጌ ከመጀመሪያ)",
+            "largest_first": "በመጠን ከፍተኛ (ከመጀመሪያ)",
+            "smallest_first": "በመጠን ዝቅተኛ (ከመጀመሪያ)",
+            "night": "ሌሊት",
+            "nights": "ሌሊቶች"
+        },
+        "helpers": {
+            "usd": "USD",
+            "in": "በ",
+            "In": "በ",
+            "days": "ቀናት",
+            "Days": "ቀናት",
+            "ago": "በፊት",
+            "months": "ወራት",
+            "month": "ወር"
+        }
+    },
+
+    "months": {
+        "Jan": "መስከረም",
+        "January": "መስከረም",
+        "Feb": "ጥቅምት",
+        "February": "ጥቅምት",
+        "Mar": "ህዳር",
+        "March": "ህዳር",
+        "Apr": "ታኅሣሥ",
+        "April": "ታኅሣሥ",
+        "May": "ጥር",
+        "Jun": "የካቲት",
+        "July": "መጋቢት",
+        "Jul": "መጋቢት",
+        "Aug": "ሚያዝያ",
+        "August": "ሚያዝያ",
+        "Sep": "ግንቦት",
+        "September": "ግንቦት",
+        "Oct": "ሰኔ",
+        "October": "ሰኔ",
+        "Nov": "ሐምሌ",
+        "November": "ሐምሌ",
+        "Dec": "ነሐሴ",
+        "December": "ነሐሴ"
+    }
+}
