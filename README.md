@@ -75,13 +75,13 @@ Thanks to the original creator for providing the foundation.
 - Clone the repository:
 
   ```
-  git clone https://github.com/sudeepmahato16/the-wild-oasis.git
+  git clone https://github.com/tamirat-dejene/customized-hms.git
   ```
 
 - Navigate to the project directory:
 
   ```
-  cd the-wild-oasis
+  cd customized-hms
   ```
 
 - Install the dependencies:
@@ -100,6 +100,7 @@ Thanks to the original creator for providing the foundation.
   DATABASE_URL=<your-mongodb-uri>
   NEXTAUTH_SECRET=<your-nextauth-secret>
   NEXT_PUBLIC_CLOUDINARY_KEY=<your-cloudinary-cloud-name>
+  GEMINI_API_KEY=<your-gemini-api-key>
   ```
 
 - Seed the database
