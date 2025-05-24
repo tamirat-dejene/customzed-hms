@@ -14,6 +14,15 @@ export const getBookings = async (query: {}) => {
   }
 };
 
+export const createBooking = async (payload: {}) => {
+  try {
+    const { data } = await axios.post("/api/booking", payload);
+    return data;
+  } catch (error: any) {
+    throw new Error(error.message || "Failed to create booking");
+  }
+};
+
 export const updateBooking = async (id: string, payload: {}) => {
   try {
     const { data } = await axios.patch(`/api/booking/check-in/${id}`, payload);

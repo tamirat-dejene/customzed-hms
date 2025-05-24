@@ -8,6 +8,7 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
+
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { Booking } from "@prisma/client";
 
@@ -57,8 +58,6 @@ const DurationChart: FC<DurationChartProps> = ({
   const t2 = useTranslations('utils.constants')
 
   const startData = isDarkMode ? startDataDark() : startDataLight();
-  console.log(confirmedStays)
-  console.log(startData)
   const data = prepareData(startData, confirmedStays, t2);
 
   return (

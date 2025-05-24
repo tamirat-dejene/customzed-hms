@@ -6,6 +6,7 @@ export const getSettings = async () => {
 
   try {
     const settings = await db.settings.findFirst();
+    console.log("Settings:", settings);
     return JSON.parse(JSON.stringify(settings));
   } catch (error) {
     throw new Error(t('settingsError'));

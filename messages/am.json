@@ -51,6 +51,33 @@
 
         "bookings": {
             "title": "ሁሉም ቦታ ማስያዣዎች",
+            "createBookingForm": {
+                "input": {
+                    "required": "ይህ መስክ አስፈላጊ ነው",
+                    "minGuests": "ከዚያ በላይ አንድ እንግዳ መኖር አለበት",
+                    "minPrice": "ዝቅተኛው ዋጋ 0 ወይም ከዚያ በላይ ሊሆን ይገባል",
+                    "maxPrice": "ከፍተኛው ዋጋ 0 ወይም ከዚያ በላይ ሊሆን ይገባል",
+                    "minDays": "ቢያንስ አንድ ቀን መቆየት አለብዎት"
+                },
+                "formRow": {
+                    "fullName": "ሙሉ ስም",
+                    "email": "የኢሜይል አድራሻ",
+                    "checkIn": "የመግቢያ ቀን",
+                    "guests": "የእንግዶች ብዛት",
+                    "minPrice": "ዝቅተኛ ዋጋ",
+                    "maxPrice": "ከፍተኛ ዋጋ",
+                    "days": "የመቆያ ቀናት",
+                    "cabin": "ካቢን",
+                    "total": "ጠቅላላ መጠን",
+                    "includeBreakfast": "ቁርስ አካትት",
+                    "breakfastNote": "ቁርስ ምርጫ",
+                    "bnotePlaceholder": "ስለ ቁርስ ምርጫዎች (ለምሳሌ፡ ጉሉተን ነፃ፣ አትርፍኛው፣ ወዘተ)"
+                },
+                "selectCabin": "ካቢን ይምረጡ",
+                "cancel": "መተው",
+                "bookNow": "አሁን ይዘግቡ"
+            },
+
             "bookingDetail": {
                 "title": "ማስያዣ #",
                 "back": "ወደኋላ",
@@ -128,7 +155,8 @@
             "filter": {
                 "label1": "ባለፈው 7 ቀናት",
                 "label2": "ባለፈው 30 ቀናት",
-                "label3": "ባለፈው 90 ቀናት"
+                "label3": "ባለፈው 90 ቀናት",
+                "convert": "ወደ ፒዲኤፍ ቀይር"
             },
             "durationChart": {
                 "title": "የቆይታ ጊዜ ማጠቃለያ"
@@ -312,6 +340,15 @@
                 "checkins": "ግባዎች",
                 "occupancyRate": "የመያዣ መጠን"
             }
+        },
+
+        "gpt": {
+            "title": "ከ AI ረዳት ጋር ይወያዩ",
+            "btnLabel": "ከ AI ረዳት ይወያዩ",
+            "input": {
+                "placeholder": "ለምሳሌ፡ 'የዛሬን ቦታ ማስያዝ አጠቃላይ አድርግ' ይጠይቁ"
+            },
+            "error": "መልኩን መላክ አልተቻለም"
         },
 
         "settings": {

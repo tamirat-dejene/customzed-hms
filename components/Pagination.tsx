@@ -4,16 +4,20 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import { useUrl } from "@/hooks/useUrl";
 import { PAGE_SIZE } from "@/utils/config";
 import { useTranslations } from "next-intl";
+import Button from "./Button";
+import Modal from "./Modal";
+import CreateCabinForm from "@/features/cabins/CreateCabinForm";
+import CreateBookingForm from "@/features/bookings/CreateBookingForm";
 
 interface PaginationProps {
   count: number;
-  isLoading?:boolean;
+  isLoading?: boolean;
 }
 
-const Pagination: FC<PaginationProps> = ({ count=0, isLoading }) => {
+const Pagination: FC<PaginationProps> = ({ count = 0, isLoading }) => {
   const { getValue, addQueryToUrl } = useUrl();
   const t = useTranslations('features.booking.table.pagination');
-  
+
   const currentPage = !getValue("page") ? 1 : Number(getValue("page"));
 
   const pageCount = Math.ceil(count / PAGE_SIZE);
@@ -64,6 +68,18 @@ const Pagination: FC<PaginationProps> = ({ count=0, isLoading }) => {
           <span>{t('next')}</span>
           <HiChevronRight className="h-[16px] w-[16px]" />
         </button>
+
+        <Modal>
+          <Modal.Open opens="newBook">
+            <Button className="ml-2 p-0.5">
+              Book New
+            </Button>
+          </Modal.Open>
+
+          <Modal.Window name="newBook">
+            <CreateBookingForm />
+          </Modal.Window>
+        </Modal>
       </div>
     </div>
   );

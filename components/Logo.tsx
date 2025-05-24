@@ -12,7 +12,7 @@ interface LogoProps{
 const Logo: FC<LogoProps> = ({width=112, height=80}) => {
   const {isDarkMode} = useDarkMode();
 
-  const src = isDarkMode ? "/logo-dark.png": "/logo-light.png"
+  const src = isDarkMode ? "/logo.png": "/logo.png"
   return (
     <Link href="/" className="flex justify-center items-center max-h-20 relative">
       <Image

@@ -92,11 +92,10 @@ const BookingDataBox: FC<BookingDataBoxProps> = ({ booking }) => {
         </DataItem>
 
         <div
-          className={`flex items-center justify-between py-[12px] px-6 rounded-md mt-6 ${
-            isPaid
+          className={`flex items-center justify-between py-[12px] px-6 rounded-md mt-6 ${isPaid
               ? "bg-green-100 text-green-700 dark:bg-green-700 dark:text-green-100"
               : "bg-yellow-100 text-yellow-700 dark:bg-yellow-700 dark:text-yellow-100"
-          }`}
+            }`}
         >
           <DataItem
             icon={HiOutlineCurrencyDollar}

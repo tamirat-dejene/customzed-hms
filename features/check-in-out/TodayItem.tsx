@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Booking } from "@prisma/client";
 import CheckoutButton from "./CheckoutButton";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 interface TodayItemProps {
   activity: Pick<Booking, "id" | "status" | "numNights"> & {
@@ -18,6 +19,7 @@ interface TodayItemProps {
 const TodayItem: FC<TodayItemProps> = ({ activity }) => {
   const { id, status, guest, numNights } = activity;
   const t = useTranslations("features.checkinout");
+  const { locale } = useParams();
 
 
   return (
@@ -46,7 +48,7 @@ const TodayItem: FC<TodayItemProps> = ({ activity }) => {
       {status === "unconfirmed" && (
         <Link
           className="rounded-[5px] shadow-sm transition-all duration-300 text-[10px] py-[6px] px-2 uppercase font-semibold text-center text-[#eef2ff] bg-indigo-600 hover:bg-indigo-700"
-          href={`/bookings/check-in/${id}`}
+          href={`/${locale}/bookings/check-in/${id}`}
         >
           {t('checkin')}
         </Link>

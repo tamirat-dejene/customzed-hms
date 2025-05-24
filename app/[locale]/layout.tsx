@@ -12,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "The Wild Oasis",
-  description: "A small boutique hotel",
+  title: "Sherar Addis Hotel",
+  description: "Come as a guest, leave as a family",
 };
 
 export default async function RootLayout({

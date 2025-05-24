@@ -1,6 +1,6 @@
 "use client";
 import React, { FC } from "react";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 import BookingDataBox from "./BookingDataBox";
 import Modal from "@/components/Modal";
@@ -22,6 +22,7 @@ const BookingDetail: FC<BookingDetailProps> = ({ booking }) => {
   const { isDeleting, deleteBooking } = useDeleteBooking();
   const moveBack = useMoveBack();
   const router = useRouter();
+  const { locale } = useParams();
 
   const {
     status,
@@ -57,7 +58,7 @@ const BookingDetail: FC<BookingDetailProps> = ({ booking }) => {
 
       <div className="flex gap-3 justify-end">
         {status === "unconfirmed" && (
-          <Button onClick={() => router.push(`/bookings/check-in/${id}`)}>
+          <Button onClick={() => router.push(`/${locale}/bookings/check-in/${id}`)}>
             {t('checkin')}
           </Button>
         )}

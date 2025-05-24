@@ -51,6 +51,33 @@
 
         "bookings": {
             "title": "Cufamoota hunda",
+            "createBookingForm": {
+                "input": {
+                    "required": "Dirqama ta’ee guutamuu qaba",
+                    "minGuests": "Hirmaataan tokko ta’uu qaba",
+                    "minPrice": "Gatii xixiqqaan 0 yookaan isa olii ta’uu qaba",
+                    "maxPrice": "Gatii guddaan 0 yookaan isa olii ta’uu qaba",
+                    "minDays": "Hanga tokko guyyoota turaa qabaachu qabda"
+                },
+                "formRow": {
+                    "fullName": "Maqaa Guutuu",
+                    "email": "Teessoo Imeelii",
+                    "checkIn": "Guyyaa Seensaa",
+                    "guests": "Lakkoofsa Hirmaattota",
+                    "minPrice": "Gatii Xixiqqaa",
+                    "maxPrice": "Gatii Guddaa",
+                    "days": "Lakkoofsa Guyyoota",
+                    "cabin": "Kaabinii",
+                    "total": "Waliigala Gatii",
+                    "includeBreakfast": "Ciree dabalata",
+                    "breakfastNote": "Filannoo ciree",
+                    "bnotePlaceholder": "Filannoo ciree (fakkeenyaaf: gluten-free, nyaata beellado hin nyaanne, kkf)"
+                },
+                "selectCabin": "Kaabinii filadhu",
+                "cancel": "Haqi",
+                "bookNow": "Amma Galmeessi"
+            },
+
             "bookingDetail": {
                 "title": "Cufamuu #",
                 "back": "Deebi'i",
@@ -127,7 +154,8 @@
             "filter": {
                 "label1": "Guyyaa 7 darban",
                 "label2": "Guyyaa 30 darban",
-                "label3": "Guyyaa 90 darban"
+                "label3": "Guyyaa 90 darban",
+                "convert": "Gara pdf jijjiiri"
             },
             "durationChart": {
                 "title": "Gabaabina turtii"
@@ -299,6 +327,15 @@
             "occupancyRate": "Sadarkaa guutuu"
         }
         },
+        "gpt": {
+        "title": "AI waliin haasa'aa",
+        "btnLabel": "AI waliin haasa'aa",
+        "input": {
+            "placeholder": "Fakkeenyaaf: 'bookingiwwan har'aa gabaabaan' jechuun gaafadhu"
+        },
+        "error": "Ergaan erguu hin milkoofne"
+        },
+
         "settings": {
         "update": "Settings milkaa’inaan haaromfame"
         }

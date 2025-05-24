@@ -159,7 +159,7 @@ const CreateCabinForm: React.FC<CreateCabinFormProps> = ({
           accept="image/*"
           className="text-[14px]  image-input outline-violet-700 dark:text-gray-300"
           {...register("image", {
-            required: isEditSession ? false : t('descError'),
+            required: isEditSession ? false : t('input.descError'),
           })}
         />
       </FormRow>
@@ -173,7 +173,7 @@ const CreateCabinForm: React.FC<CreateCabinFormProps> = ({
           {t('cancel')}
         </Button>
         <Button disabled={isWorking} type="submit" className="flex items-center gap-2">
-        {isWorking && <SpinnerMini />}
+          {isWorking && <SpinnerMini />}
           <span>{isEditSession ? t('editCabin') : t('createCabin')}</span>
         </Button>
       </FormRow>
